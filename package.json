@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Advanced WhatsApp bot using Baileys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^5.0.0",
+    "axios": "^1.4.0",
+    "pino": "^8.8.0"
+  }
+}
