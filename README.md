@@ -1,21 +1,24 @@
-# <<<<<<<<<<<------Project Structure------------>>>>>
+#Project-Strucrure
 
 whatsapp-bot/
+│
+├── auth_info.json             (auto-created after QR login)
+├── config.json                (config & constants)
+├── index.js                   (main bot file)
+├── package.json               (npm dependencies)
+│
 ├── plugins/
-│   ├── yt.js
-│   ├── tiktok.js
-│   ├── insta.js
-│   ├── group.js
-│   └── movie.js
-├── lib/
-│   └── downloader.js
-├── media/
-│   └── images/
-├── session/
-├── config.js
-├── index.js
-├── package.json
-└── .env
+│   ├── groupControl.js        (group management plugin)
+│   ├── yt.js                  (placeholder for YouTube downloader)
+│   ├── tiktok.js              (placeholder for TikTok downloader)
+│   ├── insta.js               (placeholder for Instagram downloader)
+│   ├── facebook.js            (placeholder for Facebook downloader)
+│   ├── spotify.js             (placeholder for Spotify downloader)
+│   └── movie.js               (placeholder for Movie downloader)
+│
+└── media/
+    ├── welcome.jpg            (welcome image)
+    └── goodbye.jpg            (goodbye image)
 
 
 
@@ -29,3 +32,4 @@ npm install baileys axios cheerio ytdl-core fluent-ffmpeg spotifydl-core node-fe
 
 
 
+#
