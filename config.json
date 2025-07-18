@@ -1,0 +1,12 @@
+{
+  "welcomeImage": "media/welcome.jpg",
+  "goodbyeImage": "media/goodbye.jpg",
+  "autoReplyMessage": "🤖 I am an auto-reply bot. Please wait for admin response.",
+  "autoReactEmoji": "👍",
+  "antiLink": true,
+  "antiSpam": true,
+  "muteGroups": {},
+  "spamThreshold": 5,
+  "spamInterval": 10000,
+  "spamMuteDurationMs": 60000
+}
